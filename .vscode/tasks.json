@@ -7,8 +7,9 @@
             "args": [
                 "-g",
                 "${file}",
+				"-ledit",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.out"
             ],
             "options": {
                 "cwd": "${fileDirname}"
